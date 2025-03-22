@@ -79,6 +79,7 @@
 					<Item>xml/monastery.xml</Item>
 					<Item>xml/hikoi.xml</Item>
 					<Item>xml/domesday.xml</Item>
+					<Item>xml/shipbuildingII.xml</Item>
         		</UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
