@@ -71,14 +71,12 @@
 				</ImportFiles>
 				<UpdateDatabase>
 					<Item>xml/casa.xml</Item>
-					<Item>xml/invis.xml</Item>
 					<Item>xml/renaissance.xml</Item>
 					<Item>xml/labor.xml</Item>
 					<Item>xml/armysoul.xml</Item>
 					<Item>xml/evangelism.xml</Item>
 					<Item>xml/monastery.xml</Item>
 					<Item>xml/hikoi.xml</Item>
-					<Item>xml/domesday.xml</Item>
         		</UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
@@ -96,7 +94,6 @@
 				<UpdateDatabase>
 					<Item>xml/casa.xml</Item> 
 					<Item>xml/invis.xml</Item> 
-					<Item>xml/onsen.xml</Item> 
 					<Item>xml/renaissance.xml</Item>
         		</UpdateDatabase>
 				<UpdateText>
