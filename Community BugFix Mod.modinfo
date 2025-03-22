@@ -38,7 +38,7 @@
 					<!--<Item>xml/_testing.xml</Item>-->
 				</ImportFiles>
 				<UpdateDatabase>
-        		</UpdateDatabase>
+        </UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
@@ -55,7 +55,7 @@
 				<UpdateDatabase>
 					<Item>xml/shelltempered.xml</Item>
 					<Item>xml/souq.xml</Item>
-        		</UpdateDatabase>
+        </UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
@@ -77,7 +77,10 @@
 					<Item>xml/evangelism.xml</Item>
 					<Item>xml/monastery.xml</Item>
 					<Item>xml/hikoi.xml</Item>
-        		</UpdateDatabase>
+					<Item>xml/leiomano.xml</Item>
+					<Item>xml/shipbuildingII.xml</Item>
+					<Item>xml/skote_culture_suzerain.xml</Item>
+        </UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
@@ -93,9 +96,10 @@
 				</ImportFiles>
 				<UpdateDatabase>
 					<Item>xml/casa.xml</Item> 
-					<Item>xml/invis.xml</Item> 
 					<Item>xml/renaissance.xml</Item>
-        		</UpdateDatabase>
+					<Item>xml/stone_heads.xml</Item>
+					<Item>xml/brihad_pikchu.xml</Item>
+        </UpdateDatabase>
 				<UpdateText>
 					<Item>xml/goisshin_text.xml</Item> 
 				</UpdateText>
@@ -112,10 +116,23 @@
 				</ImportFiles>
 				<UpdateDatabase>
 					<Item>xml/quinquereme.xml</Item>
-        		</UpdateDatabase>
+        </UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="bugfixes-text" scope="game" criteria="always">
+			<Properties>
+				<LoadOrder>200</LoadOrder>
+			</Properties>
+			<Actions>
+				<UpdateText>
+					<Item>loc/leiomano_loc.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
 	</ActionGroups>
+	<LocalizedText>
+		<File>loc/leiomano_loc.xml</File>
+	</LocalizedText>
 </Mod>

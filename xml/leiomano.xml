@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Units>
+		<Update>
+			<Set Description="LOC_UNIT_LEIOMANO_DESCRIPTION_ALT" />
+			<Where Description="LOC_UNIT_LEIOMANO_DESCRIPTION" />
+		</Update>
+        <Update>
+			<Set Description="LOC_UNIT_LEIOMANO_2_DESCRIPTION_ALT" />
+			<Where Description="LOC_UNIT_LEIOMANO_2_DESCRIPTION" />
+		</Update>
+        <Update>
+			<Set Description="LOC_UNIT_LEIOMANO_3_DESCRIPTION_ALT" />
+			<Where Description="LOC_UNIT_LEIOMANO_3_DESCRIPTION" />
+		</Update>
+	</Units>
+</Database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Adjacency_YieldChanges>
+		<Update>
+			<Set Age= ""/>
+			<Where ID="BrihadeeswararTempleWildcardNavigableHappiness" />
+		</Update>
+        <Update>
+			<Set Age= ""/>
+			<Where ID="MachuPikchuWildcardCulture" />
+		</Update>
+        <Update>
+			<Set Age= ""/>
+			<Where ID="MachuPikchuWildcardGold" />
+		</Update>
+	</Adjacency_YieldChanges>
+</Database>
