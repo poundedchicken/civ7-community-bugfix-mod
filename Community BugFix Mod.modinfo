@@ -36,6 +36,7 @@
 			<Actions>
 				<ImportFiles>
 					<!--<Item>xml/_testing.xml</Item>-->
+					<Item>xml/commander_mobility.xml</Item>
 				</ImportFiles>
 				<UpdateDatabase>
         		</UpdateDatabase>
