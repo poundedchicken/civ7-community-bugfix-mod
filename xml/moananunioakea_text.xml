@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Replace Tag="LOC_CIVILIZATION_HAWAII_DESCRIPTION">
+            <Text>Gain 25 [icon:YIELD_CULTURE] Culture each time a Settlement expands to Marine Terrain. +1[icon:YIELD_HAPPINESS] Happiness on worked navigable river tiles and coastal tiles without a resource.</Text>
+        </Replace>
+    </EnglishText>
+</Database>

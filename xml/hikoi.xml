@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Modifiers>
+		<Update>
+			<Set OwnerRequirementSetId="" SubjectRequirementSetId="MOD_HI_KOI_RIVER_COMBAT_OWNER_REQUIREMENTS" />
+			<Where ModifierId="MOD_HI_KOI_RIVER_COMBAT" />
+		</Update>
+	</Modifiers>
+</Database>

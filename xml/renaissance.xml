@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Modifiers>
+		<Update>
+			<Set Permanent="false" />
+			<Where ModifierId="RENAISSANCE_MOD_GREAT_WORK_CULTURE" />
+		</Update>
+	</Modifiers>
+</Database>

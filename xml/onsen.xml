@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<DynamicModifiers>
+		<Update>
+			<Set CollectionType="COLLECTION_OWNER" />
+			<Where ModifierType="MOD_DOGO_ONSEN_GOLDEN_AGE_POPULATION_TYPE" />
+		</Update>
+	</DynamicModifiers>
+</Database>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<ModifierArguments>
+		<Row ModifierId="QUINQUEREME_MOD_PURCHASE_RATE_UNITS" Name="UnitTag" Value="UNIT_CLASS_NAVAL" />
+	</ModifierArguments>
+</Database>

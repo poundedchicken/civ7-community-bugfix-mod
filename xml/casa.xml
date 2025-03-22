@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Adjacency_YieldChanges>
+		<Update>
+			<Set YieldType="YIELD_CULTURE" />
+			<Where ID="CasaConsistorialUrbanCulture" YieldType="YIELD_SCIENCE" />
+		</Update>
+	</Adjacency_YieldChanges>
+</Database>

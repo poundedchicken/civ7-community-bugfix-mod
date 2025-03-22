@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<!-- dial up disaster frequency-->
+	<RandomEventFrequencies>
+		<Update>
+			<Set OccurrencesPerAge="20" />
+		</Update>
+	</RandomEventFrequencies>
+
+	
+
+</Database>

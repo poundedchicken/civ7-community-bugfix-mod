@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Requirements>
+		<Update>
+			<Set RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+			<Where RequirementId="EVANGELISM_MOD_CIVILIAN_MOVEMENT_SUBJECT_REQUIREMENTS_1" />
+		</Update>
+	</Requirements>
+	<RequirementArguments>
+		<Update>
+			<Set Name="Tags" Value="UNIT_CLASS_CREATE_TOWN,UNIT_CLASS_MIGRANT,UNIT_CLASS_MAKE_TRADE_ROUTE,UNIT_CLASS_RELIGIOUS" />
+			<Where RequirementId="EVANGELISM_MOD_CIVILIAN_MOVEMENT_SUBJECT_REQUIREMENTS_1" />
+		</Update>
+	</RequirementArguments>
+</Database>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<ModifierArguments>
+		<Update>
+			<Set Name="UnitTag" />
+			<Where ModifierId="1479B_NARRATIVE_MODIFIER" Value="UNIT_CLASS_INFANTRY" />
+		</Update>
+	</ModifierArguments>
+</Database>

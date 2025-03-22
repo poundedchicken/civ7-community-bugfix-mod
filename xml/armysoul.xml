@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<RequirementArguments>
+		<Update>
+      		<Set Value="Hash,UnitTypeReplaces,UNIT_MAN_AT_ARMS" />
+      		<Where Value="Hash,UnitTypeReplaces,UNIT_MAN-AT-ARMS" />
+    	</Update>
+	</RequirementArguments>
+</Database>

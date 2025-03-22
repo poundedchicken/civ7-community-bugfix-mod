@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<!-- Why did I implement in this dirty way? https://forums.civfanatics.com/threads/help-modifying-advancedstartcards.695911/ -->
+	<AdvancedStartCards>
+		<Delete Name="LOC_CARD_AT_MOD_CRISIS_LABOR_SHORTAGE" />
+
+		<Row Age="AGE_EXPLORATION" CardSet="AGE_TRANSITION_EXP_DEFAULT" CardID="CARD_AT_EXP_LABOR_SHORTAGE" Name="LOC_CARD_AT_MOD_CRISIS_LABOR_SHORTAGE" Description="LOC_CARD_AT_MOD_CRISIS_LABOR_SHORTAGE_DESCRIPTION" EconomicCost="2" CardEffectType1="CARD_EFFECT_AT_EXP_MACHINERY_TECH" CardEffectType2="CARD_EFFECT_AT_EXP_OVERBUILDING" IndividualLimit="1" Unlock="UNLOCK_AQ_PLAGUE_LABOR_SHORTAGE" CategorySortOrder="10"/>
+	</AdvancedStartCards>
+</Database>
