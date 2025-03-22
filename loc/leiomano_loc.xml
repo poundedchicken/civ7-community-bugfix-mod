@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+		<Row Tag="LOC_UNIT_LEIOMANO_DESCRIPTION_ALT">
+			<Text>Tier 1 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LEIOMANO_2_DESCRIPTION_ALT">
+			<Text>Tier 2 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LEIOMANO_3_DESCRIPTION_ALT">
+			<Text>Tier 3 Hawaiian Unique Infantry Unit. +3 Combat Strength against Infantry and Cavalry Units.</Text>
+		</Row>
+    </EnglishText>
+</Database>

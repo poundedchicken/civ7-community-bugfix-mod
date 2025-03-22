@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Modifiers>
+		<Update>
+			<Set SubjectRequirementSetId="MOD_SLTH_BUGFIX_ISNT_NAVY_REQS" />
+			<Where ModifierId="MOD_TECH_OCEAN_TRAVEL_EMBARKED"/>
+		</Update>
+	</Modifiers>
+	<Requirements>
+		<Row RequirementId="MOD_SLTH_BUGFIX_ISNT_NAVY" RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" Inverse="true" />
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="MOD_SLTH_BUGFIX_ISNT_NAVY" Name="Tag" Value="UNIT_CLASS_NAVAL" />
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="MOD_SLTH_BUGFIX_ISNT_NAVY_REQS" RequirementId="MOD_SLTH_BUGFIX_ISNT_NAVY"/>
+	</RequirementSetRequirements>
+	<RequirementSets>
+		<Row RequirementSetId="MOD_SLTH_BUGFIX_ISNT_NAVY_REQS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+</Database>
