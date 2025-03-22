@@ -80,6 +80,7 @@
 					<Item>xml/hikoi.xml</Item>
 					<Item>xml/domesday.xml</Item>
 					<Item>xml/shipbuildingII.xml</Item>
+					<Item>xml/skote_culture_suzerain.xml</Item>
         		</UpdateDatabase>
 				<UpdateText>
 				</UpdateText>

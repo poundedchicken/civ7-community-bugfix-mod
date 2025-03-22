@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<DynamicModifiers>
+		<Update>
+			<Set CollectionType="COLLECTION_PLAYER_CONSTRUCTIBLES" />
+			<Where ModifierType="MOD_WYEHI_SIMEKOFI_MAWASKAWE_SKOTE_TYPE" />
+		</Update>
+	</DynamicModifiers>
+</Database>
