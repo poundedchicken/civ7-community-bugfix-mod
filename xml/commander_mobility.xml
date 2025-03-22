@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <UnitPromotionModifiers>
+		<Row UnitPromotionType="PROMOTION_ARMY_MOBILITY" ModifierId="SLTH_BUGFIX_MOD_ABILITY_IGNORE_MINOR_RIVERS"/>
+		<Row UnitPromotionType="PROMOTION_ARMY_MOBILITY" ModifierId="SLTH_BUGFIX_MOD_ABILITY_IGNORE_ROUGH"/>
+	</UnitPromotionModifiers>
+    <Modifiers>
+		<Row ModifierId="SLTH_BUGFIX_MOD_ABILITY_IGNORE_ROUGH" ModifierType="MOD_ABILITY_IGNORE_TERRAIN_TYPE" SubjectRequirementSetId="MOD_PROMOTION_ARMY_MOBILITY_IGNORE_TERRAIN_WHILE_PACKED_SUBJECT_REQUIREMENTS"/>
+		<Row ModifierId="SLTH_BUGFIX_MOD_ABILITY_IGNORE_MINOR_RIVERS" ModifierType="MOD_ABILITY_IGNORE_TERRAIN_TYPE" SubjectRequirementSetId="MOD_PROMOTION_ARMY_MOBILITY_IGNORE_TERRAIN_WHILE_PACKED_SUBJECT_REQUIREMENTS"/>
+	</Modifiers>
+    <ModifierArguments>
+		<Row ModifierId="SLTH_BUGFIX_MOD_ABILITY_IGNORE_ROUGH" Name="Obstacle" Value="TERRAIN_HILL"/>
+		<Row ModifierId="SLTH_BUGFIX_MOD_ABILITY_IGNORE_MINOR_RIVERS" Name="Obstacle" Value="RIVER_MINOR"/>
+	</ModifierArguments>
+</Database>
