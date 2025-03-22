@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Adjacency_YieldChanges>
+		<Row ID="StoneheadCulture" AdjacentConstructible="IMPROVEMENT_STONE_HEAD" YieldChange="1.0" YieldType="YIELD_CULTURE"/>
+	</Adjacency_YieldChanges>
+	<Constructible_Adjacencies>
+		<Row ConstructibleType="IMPROVEMENT_STONE_HEAD" YieldChangeId="StoneheadCulture"/>
+	</Constructible_Adjacencies>
+</Database>
