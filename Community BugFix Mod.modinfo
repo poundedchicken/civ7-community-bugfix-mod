@@ -71,14 +71,12 @@
 				</ImportFiles>
 				<UpdateDatabase>
 					<Item>xml/casa.xml</Item>
-					<Item>xml/invis.xml</Item>
 					<Item>xml/renaissance.xml</Item>
 					<Item>xml/labor.xml</Item>
 					<Item>xml/armysoul.xml</Item>
 					<Item>xml/evangelism.xml</Item>
 					<Item>xml/monastery.xml</Item>
 					<Item>xml/hikoi.xml</Item>
-					<Item>xml/domesday.xml</Item>
 					<Item>xml/leiomano.xml</Item>
 					<Item>xml/shipbuildingII.xml</Item>
 					<Item>xml/skote_culture_suzerain.xml</Item>
@@ -98,8 +96,6 @@
 				</ImportFiles>
 				<UpdateDatabase>
 					<Item>xml/casa.xml</Item> 
-					<Item>xml/invis.xml</Item> 
-					<Item>xml/onsen.xml</Item> 
 					<Item>xml/renaissance.xml</Item>
 					<Item>xml/stone_heads.xml</Item>
 					<Item>xml/brihad_pikchu.xml</Item>
