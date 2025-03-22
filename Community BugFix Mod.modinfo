@@ -101,6 +101,7 @@
 					<Item>xml/invis.xml</Item> 
 					<Item>xml/onsen.xml</Item> 
 					<Item>xml/renaissance.xml</Item>
+					<Item>xml/brihad_pikchu.xml</Item>
         		</UpdateDatabase>
 				<UpdateText>
 					<Item>xml/goisshin_text.xml</Item> 
