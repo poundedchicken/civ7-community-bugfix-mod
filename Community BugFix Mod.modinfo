@@ -79,6 +79,7 @@
 					<Item>xml/monastery.xml</Item>
 					<Item>xml/hikoi.xml</Item>
 					<Item>xml/domesday.xml</Item>
+					<Item>xml/leiomano.xml</Item>
         		</UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
@@ -120,5 +121,18 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="bugfixes-text" scope="game" criteria="always">
+			<Properties>
+				<LoadOrder>200</LoadOrder>
+			</Properties>
+			<Actions>
+				<UpdateText>
+					<Item>loc/leiomano_loc.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
 	</ActionGroups>
+	<LocalizedText>
+		<File>loc/leiomano_loc.xml</File>
+	</LocalizedText>
 </Mod>
