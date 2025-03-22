@@ -38,7 +38,7 @@
 					<!--<Item>xml/_testing.xml</Item>-->
 				</ImportFiles>
 				<UpdateDatabase>
-        		</UpdateDatabase>
+        </UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
@@ -55,7 +55,7 @@
 				<UpdateDatabase>
 					<Item>xml/shelltempered.xml</Item>
 					<Item>xml/souq.xml</Item>
-        		</UpdateDatabase>
+        </UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
@@ -80,7 +80,8 @@
 					<Item>xml/hikoi.xml</Item>
 					<Item>xml/domesday.xml</Item>
 					<Item>xml/shipbuildingII.xml</Item>
-        		</UpdateDatabase>
+					<Item>xml/skote_culture_suzerain.xml</Item>
+        </UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
@@ -99,7 +100,8 @@
 					<Item>xml/invis.xml</Item> 
 					<Item>xml/onsen.xml</Item> 
 					<Item>xml/renaissance.xml</Item>
-        		</UpdateDatabase>
+					<Item>xml/brihad_pikchu.xml</Item>
+        </UpdateDatabase>
 				<UpdateText>
 					<Item>xml/goisshin_text.xml</Item> 
 				</UpdateText>
@@ -116,7 +118,7 @@
 				</ImportFiles>
 				<UpdateDatabase>
 					<Item>xml/quinquereme.xml</Item>
-        		</UpdateDatabase>
+        </UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
