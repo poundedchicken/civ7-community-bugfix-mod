@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Database>
-    <EnglishText>
-        <Replace Tag="LOC_CIVILIZATION_MEIJI_DESCRIPTION">
-            <Text>When you Overbuild a Building, gain [icon:YIELD_SCIENCE] Science equal to 30% of the Building's Production cost.</Text>
-        </Replace>
-    </EnglishText>
-</Database>

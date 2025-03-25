@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="Community_BugFix_Mod" version="0.8.1" xmlns="ModInfo">
+<Mod id="Community_BugFix_Mod_TEST" version="0.8.1" xmlns="ModInfo">
 	<Properties>
 		<Name>Community BugFix Mod</Name>
-		<Description>Simple fixes to non-UI bugs that can be easily repaired without replacing files. Does not include any opinionated changes.</Description>
+		<Description>Simple fixes to non-UI bugs that can be easily repaired without replacing files. Does not include any opinionated changes ME PIRATES</Description>
 		<Authors>PoundedChicken</Authors>
 		<Package>Mod</Package>
 		<AffectsSavedGames>0</AffectsSavedGames>
@@ -54,8 +54,6 @@
 				<ImportFiles>
 				</ImportFiles>
 				<UpdateDatabase>
-					<Item>xml/shelltempered.xml</Item>
-					<Item>xml/souq.xml</Item>
         		</UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
@@ -75,10 +73,7 @@
 					<Item>xml/invis.xml</Item>
 					<Item>xml/renaissance.xml</Item>
 					<Item>xml/labor.xml</Item>
-					<Item>xml/armysoul.xml</Item>
 					<Item>xml/evangelism.xml</Item>
-					<Item>xml/monastery.xml</Item>
-					<Item>xml/hikoi.xml</Item>
 					<Item>xml/domesday.xml</Item>
 					<Item>xml/shipbuildingII.xml</Item>
 					<Item>xml/skote_culture_suzerain.xml</Item>
@@ -100,30 +95,10 @@
 				<UpdateDatabase>
 					<Item>xml/casa.xml</Item> 
 					<Item>xml/invis.xml</Item> 
-					<Item>xml/onsen.xml</Item> 
 					<Item>xml/renaissance.xml</Item>
 					<Item>xml/stone_heads.xml</Item>
 					<Item>xml/brihad_pikchu.xml</Item>
         		</UpdateDatabase>
-				<UpdateText>
-					<Item>xml/goisshin_text.xml</Item> 
-				</UpdateText>
-			</Actions>
-		</ActionGroup>
-
-		<!-- CARTHAGE ONLY FIXES (age is already implicit since its antiquity only civ) -->
-		<ActionGroup id="gameplay" scope="game" criteria="has-carthage-dlc">
-			<Properties>
-				<LoadOrder>200</LoadOrder>
-			</Properties>
-			<Actions>
-				<ImportFiles>
-				</ImportFiles>
-				<UpdateDatabase>
-					<Item>xml/quinquereme.xml</Item>
-        		</UpdateDatabase>
-				<UpdateText>
-				</UpdateText>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="bugfixes-text" scope="game" criteria="always">
