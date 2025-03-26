@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="Community_BugFix_Mod_TEST" version="0.8.1" xmlns="ModInfo">
+<Mod id="Community_BugFix_Mod" version="0.9.1" xmlns="ModInfo">
 	<Properties>
 		<Name>Community BugFix Mod</Name>
 		<Description>Simple fixes to non-UI bugs that can be easily repaired without replacing files. Does not include any opinionated changes ME PIRATES</Description>
@@ -39,7 +39,7 @@
 					<Item>xml/commander_mobility.xml</Item>
 				</ImportFiles>
 				<UpdateDatabase>
-        		</UpdateDatabase>
+        </UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
@@ -54,7 +54,7 @@
 				<ImportFiles>
 				</ImportFiles>
 				<UpdateDatabase>
-        		</UpdateDatabase>
+        </UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
@@ -70,15 +70,13 @@
 				</ImportFiles>
 				<UpdateDatabase>
 					<Item>xml/casa.xml</Item>
-					<Item>xml/invis.xml</Item>
 					<Item>xml/renaissance.xml</Item>
 					<Item>xml/labor.xml</Item>
 					<Item>xml/evangelism.xml</Item>
-					<Item>xml/domesday.xml</Item>
 					<Item>xml/shipbuildingII.xml</Item>
 					<Item>xml/skote_culture_suzerain.xml</Item>
 					<Item>xml/leiomano.xml</Item>
-        		</UpdateDatabase>
+        </UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
@@ -94,11 +92,27 @@
 				</ImportFiles>
 				<UpdateDatabase>
 					<Item>xml/casa.xml</Item> 
-					<Item>xml/invis.xml</Item> 
 					<Item>xml/renaissance.xml</Item>
 					<Item>xml/stone_heads.xml</Item>
 					<Item>xml/brihad_pikchu.xml</Item>
-        		</UpdateDatabase>
+        </UpdateDatabase>
+				<UpdateText>
+					<Item>xml/goisshin_text.xml</Item> 
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="bugfixes-text" scope="game" criteria="always">
+			<Properties>
+				<LoadOrder>200</LoadOrder>
+			</Properties>
+			<Actions>
+				<ImportFiles>
+				</ImportFiles>
+				<UpdateDatabase>
+        </UpdateDatabase>
+				<UpdateText>
+					<Item>loc/leiomano_loc.xml</Item>
+				</UpdateText>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="bugfixes-text" scope="game" criteria="always">
