@@ -76,6 +76,7 @@
 					<Item>xml/leiomano.xml</Item>
 					<Item>xml/shipbuildingII.xml</Item>
 					<Item>xml/skote_culture_suzerain.xml</Item>
+					<Item>sql/missionary_incense.sql</Item>
         		</UpdateDatabase>
 				<UpdateText>
 				</UpdateText>
